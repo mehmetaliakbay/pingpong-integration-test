@@ -1,0 +1,15 @@
+# <text> universitesi secilir
+* "LoginPage_UniversitySection" li elemente tikla
+* "LoginPage_UniversityInput" li elemente <text> değerini yaz
+* <text> li universiteye tikla
+
+# Login Sayfasi Student Number <text> girilir
+* "LoginPage_StudentNumber" li elemente tikla
+* "LoginPage_StudentNumber" li elemente <text> değerini yaz
+
+# Login Sayfasi Password alanina <text> girilir
+* "LoginPage_Password" li elemente tikla
+* "LoginPage_Password" li elemente <text> değerini yaz
+
+# Login Sayfasi Login butonuna tiklanir
+* "LoginPage_LoginButton" li elemente tikla

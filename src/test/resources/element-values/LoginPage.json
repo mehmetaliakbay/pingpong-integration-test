@@ -1,0 +1,37 @@
+[
+  {
+    "key": "LoginPage_UniversitySection",
+    "androidValue": "//*[@text='You can choose from list']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "LoginPage_UniversityInput",
+    "androidValue": "//*[@content-desc='University']/../android.widget.ImageView",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+  "key": "LoginPage_StudentNumber",
+  "androidValue": "//*[@content-desc='Student Number']/../android.widget.EditText[1]",
+  "androidType": "xpath",
+  "iosValue": "",
+  "iosType": ""
+  },
+  {
+    "key": "LoginPage_Password",
+    "androidValue": "//*[@text='Password']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "LoginPage_LoginButton",
+    "androidValue": "//*[@content-desc='Connect to My University']",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  }
+]

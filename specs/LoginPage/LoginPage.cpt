@@ -1,15 +1,24 @@
-# <text> universitesi secilir
-* "LoginPage_UniversitySection" li elemente tikla
-* "LoginPage_UniversityInput" li elemente <text> değerini yaz
-* <text> li universiteye tikla
-
 # Login Sayfasi Student Number <text> girilir
 * "LoginPage_StudentNumber" li elemente tikla
 * "LoginPage_StudentNumber" li elemente <text> değerini yaz
+* "2" saniye bekle
 
 # Login Sayfasi Password alanina <text> girilir
 * "LoginPage_Password" li elemente tikla
 * "LoginPage_Password" li elemente <text> değerini yaz
+* "2" saniye bekle
 
 # Login Sayfasi Login butonuna tiklanir
 * "LoginPage_LoginButton" li elemente tikla
+
+
+# Login sayfasi <universite> universite secilir <numara> numara ve password alanina <password> degerleri yazilir ve login butonuna tıklanır.
+* Login sayfasi <universite> universitesi secilir
+* Login Sayfasi Student Number <numara> girilir
+* Login Sayfasi Password alanina <password> girilir
+* Login Sayfasi Login butonuna tiklanir
+
+
+
+# Login sayfasi login butonu pasif olmasi beklenir.
+* "LoginPage_LoginButton" elementinin "checked" niteliği "false" değerini içeriyor mu

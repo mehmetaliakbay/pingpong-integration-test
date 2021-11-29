@@ -567,6 +567,14 @@ public class StepImpl extends HookImpl {
         }
     }
 
+
+    @Step("<key> elementinin <attribute> niteliği <text> değerini içeriyor mu")
+    public void containsAttributeValue(String key,String attribute, String text){
+        String actualText=findElementByKey(key).getAttribute(attribute);
+        Assert.assertTrue(actualText.contains(text));
+    }
+
+
     @Step({"<key> li elementin değeri <text> e içerdiğini kontrol et",
             "Find element by <key> and text contains <text>"})
     public void containsTextByKey(String key, String text) {
@@ -1306,5 +1314,22 @@ public class StepImpl extends HookImpl {
             logger.error(text + " universitesi secilemedi "+e.getMessage());
         }
     }
+
+
+    @Step("Login sayfasi <text> universitesi secilir")
+    public void selectUniversity(String text){
+        if (text.equals("")) {
+            return;
+        }
+        try {
+            findElementByKey("LoginPage_UniversitySection").click();
+            sendKeys("LoginPage_UniversityInput",text);
+            findElement(By.xpath("//*[@content-desc='"+text+"']")).click();
+        }catch (Exception e){
+            logger.error(text + " universitesi secilemedi "+e.getMessage());
+        }
+    }
+
+
 
 }

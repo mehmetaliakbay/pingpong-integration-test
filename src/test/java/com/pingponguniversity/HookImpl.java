@@ -41,12 +41,8 @@ public class HookImpl {
                         .setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
                 desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android SDK built for x86");
 
-                desiredCapabilities
-                        .setCapability(AndroidMobileCapabilityType.APP_PACKAGE,
-                                "university.unication.pingpong");
-                desiredCapabilities
-                        .setCapability(AndroidMobileCapabilityType.APP_ACTIVITY,
-                                "university.unication.pingpong.MainActivity");
+                desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "university.unication.pingpong");
+                desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "university.unication.pingpong.MainActivity");
                 desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "appium");
                  desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET, true);
                 desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 3000);

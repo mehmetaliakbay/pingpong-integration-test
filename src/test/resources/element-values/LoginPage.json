@@ -15,14 +15,14 @@
   },
   {
   "key": "LoginPage_StudentNumber",
-  "androidValue": "//*[@content-desc='Student Number']/../android.widget.EditText[1]",
+  "androidValue": "//android.view.View/android.widget.EditText[1]",
   "androidType": "xpath",
   "iosValue": "",
   "iosType": ""
   },
   {
     "key": "LoginPage_Password",
-    "androidValue": "//*[@text='Password']",
+    "androidValue": "//android.view.View/android.widget.EditText[2]",
     "androidType": "xpath",
     "iosValue": "",
     "iosType": ""

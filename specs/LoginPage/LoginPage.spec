@@ -1,15 +1,38 @@
-Login Page aa
+Login Page
 =====================
 
 
 
-Ogrenci Login Islemi
+Ogrenci Login Basarili Login Islemi
 ----------------------
-Tags:OgrenciLoginIslemi
+Tags:Ogrenci Login Basarili Login Islemi
 
-* "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ" universitesi secilir
-* Login Sayfasi Student Number "112" girilir
-* Login Sayfasi Password alanina "test" girilir
-* Login Sayfasi Login butonuna tiklanir
+* Login sayfasi "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ" universite secilir "112" numara ve password alanina "test" degerleri yazilir ve login butonuna tıklanır.
+* "10" saniye bekle
+
+
+
+Login sayfasi universite alani bos birakilir
+------------------------------------------------
+tags:Login sayfasi universite alani bos birakilir
+
+* Login sayfasi "" universite secilir "112" numara ve password alanina "test" degerleri yazilir ve login butonuna tıklanır.
+* Login sayfasi login butonu pasif olmasi beklenir.
+
+
+Login sayfasi ogrenci numarasi alani bos birakilir
+-----------------------------------------------------
+tags:Login sayfasi ogrenci numarasi alani bos birakilir
+
+* Login sayfasi "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ" universite secilir "" numara ve password alanina "test" degerleri yazilir ve login butonuna tıklanır.
+* Login sayfasi login butonu pasif olmasi beklenir.
+
+
+Login sayfasi ogrenci parola alani bos birakilir
+-----------------------------------------------------
+tags:Login sayfasi ogrenci parola alani bos birakilir
+
+* Login sayfasi "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ" universite secilir "112" numara ve password alanina "" degerleri yazilir ve login butonuna tıklanır.
+* Login sayfasi login butonu pasif olmasi beklenir.
 
 

@@ -46,7 +46,6 @@ public enum StoreHelper {
 
   private File[] getFileList() {
     File[] fileList = new File(this.getClass().getClassLoader().getResource(DEFAULT_DIRECTORY_PATH).getFile())
-  //  File[] fileList = new File("/Users/testinium/Desktop/Automation projects/vpn/dominoscoffy/src/test/resources/"+DEFAULT_DIRECTORY_PATH)
 
             .listFiles(pathname -> !pathname.isDirectory() && pathname.getName().endsWith(".json"));
     if (fileList == null) {

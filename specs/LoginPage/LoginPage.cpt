@@ -1,12 +1,10 @@
 # Login Sayfasi Student Number <text> girilir
 * "LoginPage_StudentNumber" li elemente tikla
 * "LoginPage_StudentNumber" li elemente <text> değerini yaz
-* "2" saniye bekle
 
 # Login Sayfasi Password alanina <text> girilir
 * "LoginPage_Password" li elemente tikla
 * "LoginPage_Password" li elemente <text> değerini yaz
-* "2" saniye bekle
 
 # Login Sayfasi Login butonuna tiklanir
 * "LoginPage_LoginButton" li elemente tikla
